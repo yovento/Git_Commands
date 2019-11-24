@@ -4,3 +4,26 @@ git add [FILE]
 git commit "Comment"
 git push
 git pull
+
+--Create and checkout a new branch
+git checkout -b feature-branch master
+
+--Overwrite local with git pull
+git force pull
+
+--How to overwrite local changes with git pull:
+git stash
+git pull
+If you want to retrieve your changes just do: $ git stash apply
+
+--Remove files
+git rm <file-A> <file-B> <file-C>
+
+--Undo commit keeping changes
+git reset --soft 
+
+--Undo commit dropping changes
+git reset --hard
+
+--Differences of two branches
+git diff branch_1..branch_2
