@@ -8,6 +8,9 @@ git checkout -- [FILE]
 git push
 git pull
 
+--Alias
+git config --global alias.[ALIAS_NAME] "[COMMAND WITHOUTH THE GIT PART]"
+
 --Create and checkout a new branch
 git checkout -b feature-branch master
 
