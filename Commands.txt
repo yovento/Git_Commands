@@ -1,3 +1,4 @@
+--Basic commands
 git clone [GIT_RPOSITORY_URL]
 git add --all
 git add [FILE]
@@ -27,3 +28,30 @@ git reset --hard
 
 --Differences of two branches
 git diff branch_1..branch_2
+
+--Stash changes
+git stash
+
+--Restore staged changes
+git stash pop
+
+--List staged changes
+git stash list
+
+--Create a new branch
+git branch TestBranch master
+
+--CheckOut branch
+git cheackout TestBranch
+
+--Create branch upstream
+git push --set-upstream origin TestBranch
+
+--Merge branch, from the destination branch
+git merge TestBranch
+
+--Delete a branch upstream
+git branch -d -r TestBranch
+
+--Delete a branch
+git branch -D TestBranch
