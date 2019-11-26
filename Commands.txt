@@ -3,6 +3,8 @@ git clone [GIT_RPOSITORY_URL]
 git add --all
 git add [FILE]
 git commit "Comment"
+git reset HEAD [FILE]
+git checkout -- [FILE]
 git push
 git pull
 
